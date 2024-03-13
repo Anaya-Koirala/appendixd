@@ -2,8 +2,6 @@
 
 This Python code allows you to convert the contents of a specified directory into a single appendix document.
 
-It is designed for documentation and is current focused on Python.
-
 
 ## Features
 
@@ -36,7 +34,7 @@ python appendixd.py --folder ./my_project --skip-folder temp --output my_project
 
 ## Todo
 
-- Add support for other languages, this to heavily focused on python
+- Add support for other languages, this too focused on python
 
 - Minmalist and Sleek GUI
 
