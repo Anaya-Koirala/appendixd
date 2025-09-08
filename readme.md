@@ -1,41 +1,41 @@
 # AppendixD
-
-This Python code allows you to convert the contents of a specified directory into a single appendix document.
-
-
-## Features
-
--   **Selective Conversion**: Converts text-based files while skipping over binary and image files (e.g., `.exe`, `.db`, `.png`, `.jpg`, `.gif`, `.pdf`, `.pyc`).
-
+- Convert all your code to a single .txt file.
+- Meant for IBDP Computer Science IA Appendix D (hence AppendixD, also XD, get it?)
+- Both GUI (tkinter) and CLI support.
 
 ## Usage
 
-To use the script, navigate to the directory
+### GUI
+
+To use the graphical interface, run:
+
 ```bash
-
-python appendixd.py --folder <path_to_folder> [--skip-folder <folder_to_skip>] [--output <output_filename>]
-
+python appendixd_gui.py
 ```
 
-### Parameters:
+-   Select the folder to convert and (optionally) a folder to skip.
+-   Set the output file (defaults to `appendix.txt`).
+-   Choose the processing mode and provide ignore patterns or manual file list as needed.
+-   Click **Generate Appendix** to create the appendix.
+-   Use **Download Last File** to save the generated file to a location of your choice.
+-   Use **Clear All** to reset the form.
+
+### CLI
+
+You can still use the script from the command line:
+
+```bash
+python appendixd.py --folder <path_to_folder> [--skip-folder <folder_to_skip>] [--output <output_filename>]
+```
+
+#### Parameters:
 
 -   `--folder`: The path to the folder containing the files you want to convert. (Required)
--
 -   `--skip-folder`: Skip any folder (Optional)
--   `--output`: The name of the output file. (Optional, Default=`appendix.txt` )
+-   `--output`: The name of the output file. (Optional, Default=`appendix.txt`)
 
-### Example:
+#### Example:
 
 ```bash
-
 python appendixd.py --folder ./my_project --skip-folder temp --output my_project_appendix.txt
-
 ```
-
-## Todo
-
-- Add support for other languages, this too focused on python
-
-- Minmalist and Sleek GUI
-
-
