@@ -1,7 +1,13 @@
 # AppendixD
 - Convert all your code to a single .txt file.
-- Meant for IBDP Computer Science IA Appendix D (hence AppendixD, also XD, get it?)
+- Aimed at IBDP Computer Science IA Appendix D.(hence AppendixD, also XD, get it?)
 - Both GUI (tkinter) and CLI support.
+- Intended to be used as more of an "use and throw" tool (that's why there's no installer or dependencies).
+
+# Screenshot
+<p align="center">
+<img src="media/ss.png" alt="Screenshot 1"/><br>
+</p>
 
 ## Usage
 
@@ -21,8 +27,7 @@ python appendixd_gui.py
 -   Use **Clear All** to reset the form.
 
 ### CLI
-
-You can still use the script from the command line:
+You can also use the script from the command line:
 
 ```bash
 python appendixd.py --folder <path_to_folder> [--skip-folder <folder_to_skip>] [--output <output_filename>]
